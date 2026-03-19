@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasinoLab Review 2026 | Nexvoli CA's #1 Pick</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap');
+        
+        :root {
+            --bg-dark: #09090e; --bg-card: rgba(25, 25, 35, 0.8);
+            --primary: #00e5ff; --primary-hover: #00b8cc;
+            --text-main: #f8fafc; --text-muted: #94a3b8;
+            --border-light: rgba(255, 255, 255, 0.1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-dark); color: var(--text-main); line-height: 1.6; }
+        h1, h2, h3, .brand-logo { font-family: 'Montserrat', sans-serif; }
+
+        nav { background: rgba(9, 9, 14, 0.9); border-bottom: 1px solid var(--border-light); padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; }
+        .brand-logo { font-size: 1.5rem; font-weight: 900; color: #fff; text-decoration: none; }
+        .brand-logo span { color: #00ff88; }
+        .back-btn { color: var(--text-muted); text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: 0.3s; }
+        .back-btn:hover { color: #fff; }
+
+        .review-container { max-width: 1000px; margin: 40px auto; padding: 0 5%; }
+        
+        /* Hero Section */
+        .review-hero { background: linear-gradient(135deg, #001f3f, #000); border: 1px solid var(--primary); border-radius: 20px; padding: 40px; display: flex; gap: 30px; align-items: center; margin-bottom: 40px; position: relative; overflow: hidden; box-shadow: 0 0 40px rgba(0, 229, 255, 0.15); }
+        .hero-ribbon { position: absolute; top: 20px; right: -35px; background: #ff3333; color: white; padding: 5px 40px; transform: rotate(45deg); font-weight: 800; font-size: 0.8rem; letter-spacing: 1px; z-index: 10; }
+        
+        .logo-box { width: 150px; height: 150px; background: #fff; border-radius: 16px; display: flex; flex-direction: column; justify-content: center; align-items: center; flex-shrink: 0; box-shadow: 0 10px 30px rgba(0, 229, 255, 0.3); border: 2px solid var(--primary); }
+        .logo-box span { color: var(--primary); font-family: 'Montserrat'; font-weight: 900; font-size: 1.4rem; text-align: center; line-height: 1.1; color: #001f3f; }
+        
+        .hero-content h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .rating { color: #ffdf00; font-size: 1.2rem; margin-bottom: 15px; letter-spacing: 2px; }
+        .rating span { font-family: 'Inter'; font-size: 0.9rem; color: var(--text-main); letter-spacing: 0; margin-left: 10px; background: rgba(255,255,255,0.1); padding: 3px 8px; border-radius: 5px; }
+        
+        .cta-btn { display: inline-block; background: var(--primary); color: #000; padding: 15px 35px; border-radius: 12px; text-decoration: none; font-weight: 800; text-transform: uppercase; font-size: 1.1rem; box-shadow: 0 10px 20px rgba(0, 229, 255, 0.3); transition: 0.3s; margin-top: 15px; border: none; }
+        .cta-btn:hover { background: var(--primary-hover); transform: translateY(-3px); }
+
+        /* Scarcity Alert */
+        .scarcity-alert { background: rgba(255, 51, 51, 0.1); border-left: 4px solid #ff3333; padding: 15px 20px; border-radius: 8px; margin-bottom: 30px; display: flex; align-items: center; gap: 15px; }
+        .scarcity-alert p { font-size: 0.95rem; color: #ffd6d6; margin: 0; }
+        .scarcity-alert strong { color: #ff3333; }
+
+        /* Content Grid */
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
+        .content-box { background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 30px; margin-bottom: 30px; }
+        .content-box h2 { font-size: 1.5rem; margin-bottom: 20px; border-bottom: 1px solid var(--border-light); padding-bottom: 10px; color: var(--primary); }
+        .content-box p { color: #cbd5e1; margin-bottom: 15px; }
+        
+        .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .pros ul, .cons ul { list-style: none; }
+        .pros ul li, .cons ul li { margin-bottom: 10px; display: flex; gap: 10px; font-size: 0.95rem; color: #cbd5e1; }
+        .pros ul li::before { content: "✅"; }
+        .cons ul li::before { content: "❌"; }
+
+        .stat-row { display: flex; justify-content: space-between; margin-bottom: 15px; border-bottom: 1px dashed var(--border-light); padding-bottom: 10px; font-size: 0.95rem; }
+        .stat-label { color: var(--text-muted); }
+        .stat-value { font-weight: 600; color: #fff; text-align: right; }
+
+        .user-review { background: rgba(0,0,0,0.3); border-left: 4px solid var(--primary); padding: 20px; border-radius: 8px; margin-bottom: 15px; }
+        .user-name { font-weight: 700; margin-bottom: 5px; display: flex; justify-content: space-between; }
+        .user-name span { font-size: 0.8rem; color: var(--text-muted); font-weight: 400; }
+        .user-text { font-size: 0.9rem; color: #cbd5e1; font-style: italic; }
+
+        @media (max-width: 768px) {
+            .review-hero { flex-direction: column; text-align: center; padding: 30px 20px; }
+            .hero-ribbon { right: -40px; }
+            .content-grid { grid-template-columns: 1fr; }
+            .pros-cons { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="brand-logo">ca.<span>nexvoli</span>.com</a>
+        <a href="index.html" class="back-btn">← Back to Top Casinos</a>
+    </nav>
+
+    <div class="review-container">
+        <div class="review-hero">
+            <div class="hero-ribbon">#1 RATED</div>
+            <div class="logo-box">
+                <span>✦<br>CASINO<br><span style="font-weight:500; font-size:1rem;">LAB</span></span>
+            </div>
+            <div class="hero-content">
+                <h1>CasinoLab Canada Review</h1>
+                <div class="rating">★★★★★ <span>9.9/10 Expert Score</span></div>
+                <p style="color: #cbd5e1;">The ultimate lab-tested gaming experience for Canadians. Start playing instantly with one of the lowest deposit requirements in the industry.</p>
+                <a href="https://go.gooddep.com/casinolab.ca/exn2fhxkq5" target="_blank" class="cta-btn">Activate €10 Offer Now</a>
+            </div>
+        </div>
+
+        <div class="scarcity-alert">
+            <span style="font-size: 1.5rem;">⚠️</span>
+            <p><strong>High Demand Alert:</strong> CasinoLab is currently limiting new Canadian accounts to maintain server quality. Only <strong>few premium spots</strong> remain open today.</p>
+        </div>
+
+        <div class="content-grid">
+            <div class="main-content">
+                <div class="content-box">
+                    <h2>Our Verdict: Why CasinoLab is #1</h2>
+                    <p>After rigorous testing, CasinoLab takes our top spot for Canadian players in 2026. The biggest advantage is their barrier to entry: a remarkably low <strong>€10 Minimum Deposit</strong>. Unlike other platforms that complicate withdrawals with hidden rules (KPIs), CasinoLab has <strong>zero hidden conditions</strong>.</p>
+                    <p>Whether you are a casual player or a high roller, the user interface is flawless, the game selection is premium, and the payout process is highly efficient.</p>
+                </div>
+
+                <div class="content-box">
+                    <h2>Pros & Cons</h2>
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <h3 style="color: #00ff88; margin-bottom: 15px;">What we liked</h3>
+                            <ul>
+                                <li>Ultra-low €10 EUR minimum deposit</li>
+                                <li>No hidden rules or KPIs to withdraw</li>
+                                <li>Incredible selection of games</li>
+                                <li>Extremely fast account approval</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h3 style="color: #ff3333; margin-bottom: 15px;">Areas for improvement</h3>
+                            <ul>
+                                <li>Strict daily limits for new player registrations</li>
+                                <li>No dedicated mobile app (browser only)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-box">
+                    <h2>Real Player Reviews (CA)</h2>
+                    
+                    <div class="user-review">
+                        <div class="user-name">Michael R. (Montreal) <span>Verified • 4 hours ago</span></div>
+                        <div style="color: #ffdf00; margin-bottom: 5px; font-size: 0.8rem;">★★★★★</div>
+                        <div class="user-text">"The fact that there are no complicated KPIs or hidden rules makes this the best site I've used. Deposited my 10 euros, played some roulette, and cashed out my winnings instantly."</div>
+                    </div>
+                    
+                    <div class="user-review">
+                        <div class="user-name">Jessica L. (Toronto) <span>Verified • 1 day ago</span></div>
+                        <div style="color: #ffdf00; margin-bottom: 5px; font-size: 0.8rem;">★★★★★</div>
+                        <div class="user-text">"Sleek design and super fast! I was lucky to get an account before the daily cap filled up. The 10 EUR minimum is perfect for testing the waters."</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="content-box" style="padding: 20px;">
+                    <h2 style="font-size: 1.2rem;">Quick Facts</h2>
+                    
+                    <div class="stat-row">
+                        <span class="stat-label">Min Deposit</span>
+                        <span class="stat-value" style="color: var(--primary);">€10 EUR</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Accepted Geo</span>
+                        <span class="stat-value">Canada (CA)</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Hidden Rules (KPIs)</span>
+                        <span class="stat-value" style="color: #00ff88;">None</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Daily Limit</span>
+                        <span class="stat-value">Strictly Capped</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Trust Score</span>
+                        <span class="stat-value">99.9% (Verified)</span>
+                    </div>
+
+                    <a href="https://go.gooddep.com/casinolab.ca/exn2fhxkq5" target="_blank" class="cta-btn" style="width: 100%; text-align: center; font-size: 1rem; padding: 12px;">Visit CasinoLab</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
